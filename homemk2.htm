@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sv.va</title>
+<style>
+body { 
+  background-image: url('grid6.gif');
+  background-size: cover;
+  background-repeat: repeat;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: rgb(28, 28, 28);
+  width: 100%;
+  height: 64px;
+  padding: 15px 15px 15px 15px;
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 6%;
+}
+.button {
+  background-color: rgb(28, 28, 28);
+  color: white;
+  float: left;
+  height: 100%;
+  border: 2px black;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  margin-left: 10px;
+}
+.button:hover {
+  background-color: #9d9d9d; /* Green */
+  color: white;
+}
+
+.left {
+  background-color: rgba(255, 255, 255, 0.8);
+  outline-color: rgba(20, 20, 20, 0.4);
+  outline: 32px;
+  border-radius: 10%;
+  float: left;
+  width: 33%;
+  height: 100%;
+  padding: 64px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+.center {
+  background-color: #e5e5e5;
+  outline: 32px;
+  border-radius: 10%;
+  float: left;
+  align-items: center;
+  width: 30%;
+  padding: 10%;
+  margin-top: 7px;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+}
+
+.right {
+  background-color: #e5e5e5;
+  outline: 32px;
+  border-radius: 10%;
+  float: left;
+  align-items: center;
+  width: 33%;
+  height: 50%;
+  padding: 64px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+footer {
+  background-color: rgba(20, 20, 20, 0);
+  bottom: 0.5%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  border-radius: 8px;
+  padding: .5%;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .left, .center, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+    <div class="navbar">
+      <button class="button">Home</button>
+      <button class="button">About</button>
+      <button class="button">Contact</button>
+    </div>
+    
+    <div style="overflow:auto">
+        <div class="left">
+            <h2>About</h2>
+            <img src="cow.jpg" alt="cow" style="height: 90%; width: 90%;">
+        </div>
+      
+        <div class="center">
+            <h2>About</h2>
+            <img src="cow.jpg" alt="cow" style="height: 100%; width: 100%;">
+        </div>
+      
+        <div class="right">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+    </div>
+    <footer>
+      <a href="https://www.youtube.com/"><img src="youtube.png" style="width: 32px; height: 32px; margin-left: 10px; margin-right: 10px;"/></a>
+      <a href="https://www.twitter.com/"><img src="twitter.png" style="width: 32px; height: 32px; margin-left: 10px; margin-right: 10px;"/></a>
+      <a href="https://www.instagram.com/"><img src="instagram.png" style="width: 32px; height: 36px; margin-left: 10px; margin-right: 10px;"/></a>
+      <a href="https://www.tiktok.com/"><img src="tiktok.png" style="width: 32px; height: 32px; margin-left: 10px; margin-right: 10px;"/></a>
+      <a href="https://www.telegram.com/"><img src="telegram.png" style="width: 32px; height: 32px; margin-left: 10px; margin-right: 10px;"/></a>
+    </footer>
+</body>
+</html>
